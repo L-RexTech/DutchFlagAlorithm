@@ -4,7 +4,10 @@
 /* General Styles */
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f4f4f4;
+  background-image: url('images/Designer.png'); /* Replace with your image path */
+  background-size: cover; /* Ensures the image covers the whole background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; 
   margin: 0;
   padding: 0;
   display: flex;
@@ -14,9 +17,9 @@ body {
 }
 
 .container {
-  background-color: #fff;
-  padding: 30px;
-  border-radius: 8px;
+  background-color: #aeaeb4;
+  padding: 25px;
+  border-radius: 100px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
@@ -84,6 +87,6 @@ button:hover {
 #pointerInfo {
   display: flex;
   justify-content: space-around;
-  font-size: 14px;
+  font-size: 27px;
   color: #555;
 }
